@@ -1,0 +1,3 @@
+com\google\config\AppConfig.class
+com\google\controller\PowerController.class
+com\AppPowerServer.class
