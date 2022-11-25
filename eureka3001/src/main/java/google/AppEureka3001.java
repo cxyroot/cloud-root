@@ -1,14 +1,14 @@
-package com;
+package google;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-@EnableEurekaClient
-public class AppPowerServer {
+@EnableEurekaServer
+public class AppEureka3001 {
 
     public static void main(String[] args) {
-        SpringApplication.run(AppPowerServer.class);
+        SpringApplication.run(AppEureka3001.class);
     }
 }

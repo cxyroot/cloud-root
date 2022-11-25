@@ -1,5 +1,6 @@
 package com.google.controller;
 
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,6 +15,7 @@ public class PowerController {
     public Object getPoser(){
         Map<String,Object> map = new HashMap<>();
         map.put("key","power1");
+
         return map;
     }
 

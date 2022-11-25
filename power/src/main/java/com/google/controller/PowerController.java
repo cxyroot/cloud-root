@@ -14,8 +14,8 @@ public class PowerController {
     public Object getPoser(){
         Map<String,Object> map = new HashMap<>();
         map.put("key","power");
+
         return map;
     }
 
 }
-
